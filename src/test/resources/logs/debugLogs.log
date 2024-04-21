@@ -1,0 +1,16 @@
+23:00:10.500 INFO  AUTOMATION - On start
+
+23:00:10.563 DEBUG AUTOMATION - Borrando la evidencia de screenshot en ejecucion anterior
+23:00:10.579 DEBUG AUTOMATION - Borrando la evidencia de pagesource en ejecucion anterior
+23:00:10.657 DEBUG AUTOMATION - Inicializar driver
+23:00:19.788 DEBUG AUTOMATION - Maximizar pantalla
+23:00:19.929 DEBUG AUTOMATION - Borrar cookies
+23:00:20.155 INFO  AUTOMATION - On test Start: promt1Test
+23:00:20.186 INFO  AUTOMATION - Navegando por la pagina
+23:00:30.461 INFO  AUTOMATION - Clickenado boton de alerta
+23:00:30.800 DEBUG AUTOMATION - Antes step stop de Allure
+23:00:30.813 INFO  AUTOMATION - Test passed
+
+23:00:30.813 DEBUG AUTOMATION - Finalizar driver
+23:00:31.111 INFO  AUTOMATION - on finish
+
