@@ -173,16 +173,12 @@ public class DemoQATests extends BaseTest {
 
         new Actions(driver)
                 .scrollToElement(driver.findElement(By.xpath("//div[text()='Book Store Application']"))).pause(2000).perform();
-
         Logs.info("Clickenado boton de alerta");
         driver.findElement(By.id("promtButton")).click();
-
         final var alert = (Alert) wait.until(ExpectedConditions.alertIsPresent());
         final var inputName = new Faker().name().fullName();
-
         alert.sendKeys(inputName);
         alert.accept();
-
         Assert.assertTrue(driver.findElement(By.xpath("//span[text()='" + inputName + "']")).isDisplayed());
     }
 }
